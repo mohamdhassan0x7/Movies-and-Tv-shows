@@ -1,0 +1,486 @@
+
+
+:root {
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+    scroll-behavior: smooth;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100%;
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: crimson;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.header
+{
+    cursor: pointer;
+}
+.zindex
+{
+    background-color: whitesmoke;
+    z-index: 999999999999999999999999999999 !important;
+    padding: 5px 50px;
+}
+.nav-item
+{
+    transition: color 0.5s ease;
+}
+.nav-item:hover
+{
+    color: goldenrod !important;
+}
+
+.fa-film
+{
+    color: goldenrod;
+    font-size: 50px;
+}
+
+body
+{
+   background-image: url(../images/vector-1669633093188-8947.jpg);
+  
+   background-position: center center;
+   
+   font-family: 'Raleway', sans-serif;
+   overflow: hidden;
+}
+section
+{
+    margin-bottom: 150px;
+}
+.cinema
+{
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+.mb-50
+{
+    margin-bottom: 200px !important;
+}
+.p-50
+{
+    padding: 50px 120px ;
+
+    /* margin-bottom: 15px; */
+}
+.mb-10
+{
+    margin-bottom: 30px;
+}
+.name-color
+{
+    color: crimson;
+}
+.desc
+{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.black-op
+{
+    margin: auto ;
+    width: 100% !important;
+    right: 0;
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.font-bold
+{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-optical-sizing: 100px;
+}
+.vh-50
+{
+    height: 50vh;
+}
+
+.poster
+{
+    overflow: hidden;
+    cursor: pointer;
+}
+.film-info
+{
+    overflow: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    transition: top 0.5s ease-in-out;
+    
+}
+.film-info h5
+{
+    color: crimson;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.film-info p
+{
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.poster:hover .film-info 
+{
+    top: 0;
+}
+
+
+.title 
+{
+    margin-bottom: 5px;
+    color: goldenrod;
+    font-family: 'Italiana', serif ;
+    
+    font-size: 75px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.line
+{
+    width: 10%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: goldenrod;
+}
+.line-half
+{
+    margin: 0 auto 50px;
+    width: 80%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: goldenrod;
+}
+.rate
+{
+   
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    top: 90%;
+    left: 80%;
+    background-color: white;
+    z-index: 999;
+
+}
+.ratein
+{
+    color: goldenrod;
+    padding: 1px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.num
+{
+    position: absolute;
+    top: 100%;
+
+    transition: top 0.5s ease-in-out;
+}
+.fa-solid
+{
+    bottom:25%;
+    transition: bottom 0.5s ease-in-out;
+}
+.reteIcon
+{
+    overflow: hidden;
+}
+.reteIcon:hover .fa-solid
+{
+    bottom: 100%;
+}
+
+.reteIcon:hover .num
+{
+    top:15%;
+}
+
+i
+{
+    font-size: 25px;
+}
+.text-gold
+{
+    color: goldenrod;
+}
+.circle
+{
+
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 3px  !important;
+    margin-right: 3px  !important;
+
+}
+
+
+.search
+{
+    background-color:transparent;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    box-decoration-break: none;
+}
+.red-line
+{
+    height: 1px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+
+}
+.search:focus
+{
+    outline: none;  
+    text-decoration: none;
+    box-decoration-break: none;
+}
+::placeholder
+{
+    font-weight: 100;
+    color: whitesmoke;
+    opacity: 0.5;
+    margin-left: 0px;
+}
+.categories
+{
+    
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 100%;
+    
+    border: none;
+}
+
+.footer
+{
+   bottom: 0;
+   width: 100%;
+   height: 25vh;   /* Height of the footer */
+   background-image: url(../images/footer.jpg);
+   background-size: 80%;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.black-opacity
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+
+}
+
+.line-red
+{
+    content: " ";
+    height:3px;
+
+    background-color: crimson;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+.contact
+{
+    border: solid crimson 3px;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+.social i
+{
+    margin-right: 10px;
+    font-size: 25px;
+    color:#555;
+    transition: color 0.5s ease;
+    
+}
+.social i:hover
+{
+    color: crimson;
+}
+.hovernone
+{
+    background-color: white !important;
+}
+.hovernone:hover
+{
+    background-color: white !important;
+}
+
+.loading
+{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    position: absolute;
+    z-index: 999999999;
+}
+.up
+{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: crimson;
+}
+
+.fa-circle-chevron-up
+{
+    color: whitesmoke;
+    transition: color 0.3s ease-in-out;
+}
+.fa-circle-chevron-up:hover
+{
+    color:crimson;
+}
+
+.loading-screen
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 99999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sk-folding-cube {
+    margin: 50px auto;
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+
